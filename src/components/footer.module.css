@@ -1,0 +1,24 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+.footer_writings{
+  margin-left: 4rem;
+  margin-top: 4rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+  }
+  .footer_writings{
+    margin-top: 2rem;
+    margin-left: 0em;
+    text-align: center;
+  }
+}

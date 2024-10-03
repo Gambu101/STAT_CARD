@@ -1,0 +1,15 @@
+.statcard{
+    display: flex;
+    margin-top: 10rem;
+    margin-left: 20vw;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .statcard {
+      flex-direction: column-reverse;
+      margin-top: 3rem;
+      margin-left: 10%;
+      margin-right: auto
+    }
+  }

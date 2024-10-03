@@ -1,0 +1,19 @@
+.rightSide{
+    background-color: hsl(277, 64%, 61%);
+    /* background: hsl(233, 47%, 7%); */
+    width: 30vw;
+    height: 50vh;
+}
+.image{
+    opacity:0.82;
+    background:hsl(277, 64%, 69%);
+    width:30vw;
+    height:50vh
+}
+
+@media only screen and (max-width: 600px) {
+    .rightSide,.image {
+        width: 80vw;
+        height: 30vh;
+    }
+  }
